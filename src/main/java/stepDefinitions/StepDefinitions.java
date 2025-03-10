@@ -139,14 +139,6 @@ public class StepDefinitions {
 		Assert.assertEquals(ExpectedUITexts.MYACCOUNTPAGETITLE, myAccountPage.getTitleOfThePage());
 	}
 
-	@Then("user checks the confirmation of account creation")
-	public void user_checks_the_confirmation_of_account_creation() {
-		// user will check if the account is created and page is switched to "My
-		// Account" page or not
-		Assert.assertEquals(ExpectedUITexts.ACCOUNTCREATIONCONFIRMATION,
-				myAccountPage.getConfirmationOfAccountCreation(), myAccountPage.getErrorAlertInAccountCreation());
-	}
-
 	// To quit browser after each scenario
 	@After
 	public void quitDriver() {

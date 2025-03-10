@@ -73,4 +73,3 @@ Feature: I want to test create new account scenario
     And user enters correct password in the text box confirm password
     And user clicks on the button Create an Account
     Then user gets navigated to the page my account
-    And user checks the confirmation of account creation

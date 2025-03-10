@@ -32,10 +32,10 @@ Feature: I want to test create new account scenario
     And user clicks on the button Create an Account
     Then user is unable to find the warning for the email address
 
-  Scenario: User enters weak password with only two chars and check for the strength meter.
+  Scenario: User enters weak password with only few chars and check for the strength meter.
     Given user enters the first name
     And user enters the last name
-    When user enters two characters only as the password
+    When user enters few characters only as the password
     Then user checks the password strength for weak
 
   Scenario: User enters weak password with only special chars and check for the strength meter.

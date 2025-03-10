@@ -83,8 +83,8 @@ public class StepDefinitions {
 		Assert.assertFalse(warningFound);
 	}
 
-	@When("user enters two characters only as the password")
-	public void user_enters_two_characters_only_as_the_password() {
+	@When("user enters few characters only as the password")
+	public void user_enters_few_characters_only_as_the_password() {
 		myAccountPage.enterPassword(Values.WEAKPASSWORD);
 	}
 
